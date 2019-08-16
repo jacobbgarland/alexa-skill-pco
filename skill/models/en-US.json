@@ -1,0 +1,89 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "planning center",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "PlaySongsIntent",
+          "slots": [],
+          "samples": [
+            "play my songs",
+            "play upcoming songs",
+            "play my upcoming songs",
+            "to play my songs",
+            "to play upcoming songs",
+            "to play my upcoming songs"
+          ]
+        },
+        {
+          "name": "PlaySingleSongIntent",
+          "slots": [
+            {
+              "name": "songTitle",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "search for {songTitle}",
+            "search for the song {songTitle}",
+            "find {songTitle}",
+            "find the song {songTitle}",
+            "play {songTitle}",
+            "play the song {songTitle}"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PreviousIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StartOverIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "slots": [],
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NextIntent",
+          "slots": [],
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

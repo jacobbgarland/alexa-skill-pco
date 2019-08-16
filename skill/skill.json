@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Planning Center",
+          "examplePhrases": [
+            "Alexa open planning center",
+            "Alexa ask planning center to play upcoming songs",
+            "Alexa tell planning center to play {song title}"
+          ],
+          "keywords": [
+            "streaming",
+            "church",
+            "planning center"
+          ],
+          "name": "Planning Center",
+          "description": "An Alexa Skill for interacting with Planning Center, an online software platform for churches.",
+          "smallIconUri": "https://alexademo.ninja/skills/logo-108.png",
+          "largeIconUri": "https://alexademo.ninja/skills/logo-512.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Include your testing instruction (if any) here",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/src"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://planning.center/privacy/",
+          "termsOfUseUrl": "https://planning.center/terms/"
+        }
+      },
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "alexa-skill-pco",
+  "version": "1.0.0",
+  "description": "An Alexa Skill for interacting with [Planning Center](https://planning.center/), an online software platform for churches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "planning center"
+  ],
+  "author": "Jacob Garland",
+  "license": "See license in ../LICENSE.txt",
+  "dependencies": {
+    "ask-sdk": "*",
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0",
+    "axios": "*",
+    "kitsu": "*",
+    "jsona": "^1.1.0",
+    "superagent": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobbgarland/alexa-skill-pco"
+  }
+}
